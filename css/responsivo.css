@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+@media (max-width: 1600px) {
+    .imagens-pag2 {
+        gap: 200px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1286px) {
+    .nav-bar {
+        .ul-navegacao {
+            margin-left: 200px;
+        }
+    }
+
+    .titulo-pag1 {
+        font-size: 5em;
+        margin: 150px 80px;
+    }
+
+    .texto-pag1 {
+        font-size: 1.7em;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .txt-produtos {
+        margin-top: 140px;
+        padding: 5px;
+        font-size: 0.9em;
+    }
+
+    .imagem:hover {
+        #bolo-encomendado {
+            letter-spacing: 4.7px;
+        }
+
+        #bolo-confeitado {
+            letter-spacing: 7px;
+        }
+    }
+}
+
+@media (max-width: 1220px) {
+    .txt-fran {
+        margin-left: 1px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .titulo-pag1 {
+        width: 300px;
+        font-size: 4em;
+        margin: 150px 30px 150px 80px;
+    }
+
+    .texto-pag1 {
+        max-width: 500px;
+        text-align: justify;
+        margin-right: 80px;
+        font-size: 1.5em;
+    }
+
+    .imagem:hover {
+        .txt-produtos {
+            letter-spacing: 8px;
+        }
+    }
+}
+
+@media (max-width: 1061px) {
+    .imagem:hover {
+        #bolo-encomendado {
+            letter-spacing: 5px;
+        }
+    }
+
+    #bolo-encomendado {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #bolo-confeitado {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1070px) {
+    .nav-bar {
+        .ul-navegacao {
+            margin-left: 130px;
+        }
+    }
+}
+
+@media (max-width: 975px) {
+    .bloco-img-1 {
+        display: none;
+    }
+
+    .bloco-img-2 {
+        display: none;
+    }
+
+    .bloco-oculto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+    }
+
+    .imagem {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    nav .menu-btn i {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #704D34;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul.open {
+        left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: #f7e9c5;
+    }
+}
+
+@media (max-width: 750px) {
+    .texto-pag1 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 700px) {
+    .txt-oculto {
+        display: block;
+        font-family: var(--font-Padrao);
+        font-size: 1.5em;
+        font-weight: 500;
+        color: var(--corTextos);
+        max-width: 600px;
+        margin-right: 20px;
+    }
+
+    .texto-pag1 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 625px) {
+    .pag1 {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .titulo-pag1 {
+        font-size: 4.4em;
+
+    }
+
+    .txt-oculto {
+        display: none;
+    }
+
+    .texto-pag1 {
+        display: flex;
+        max-width: 500px;
+        margin-bottom: 200px;
+        text-align: justify;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 615px) {
+    .titulo-pag1 {
+        margin-left: auto;
+    }
+
+    .texto-pag1 {
+        text-align: justify;
+        margin: auto;
+    }
+
+    .titulo-pag2 {
+        width: 400px;
+        margin: auto;
+        font-size: 25px;
+    }
+
+    .div-texto2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .txt-fran {
+        display: none;
+    }
+
+    .bloco-oculto {
+        margin-left: 175px;
+        margin-top: 30px;
+    }
+
+    .pag2:hover {
+        .div-texto2 {
+            width: 400px;
+            transition: 0s;
+        }
+    }
+
+    .pag3 {
+        background-position: center;
+    }
+
+    .div-texto2-sec {
+        width: 500px;
+        margin: auto;
+    }
+
+    .titulo-pag2-sec {
+        display: block;
+        font-size: 30px;
+        font-family: var(--font-Titulos);
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: var(--corTextos);
+        padding: 20px;
+        text-align: center;
+        border-top: 2px solid var(--cor2);
+    }
+
+    .div-texto2 {
+        display: none;
+    }
+
+    .titulo-pag2 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        z-index: 1;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .engajamento {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .texto-pag1 {
+        max-width: 430px;
+    }
+}
